@@ -61,10 +61,6 @@ body {
 @media (max-width: 768px) {
 
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
         height: 100%;
     }
     
