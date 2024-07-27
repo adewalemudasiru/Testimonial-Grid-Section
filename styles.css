@@ -42,7 +42,6 @@ body {
       "jeanette patrick patrick kira";
     gap: 1.5rem;
     width: min(90%, 75rem);
-    height: 35.75rem;
 }
 
 @media (max-width: 1024px) {
@@ -56,11 +55,19 @@ body {
           "kira kira kira";
         gap: 1.5rem;
         width: min(90%, 75rem);
-        height: 35.75rem;
     }
 }
 
 @media (max-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 100%;
+    }
+    
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -73,7 +80,8 @@ body {
           "kira";
         gap: 1.5rem;
         width: min(90%, 75rem);
-        height: 35.75rem;
+        padding-top: 6.25rem;
+        margin-bottom: 6.25rem;
     }
 }
 
